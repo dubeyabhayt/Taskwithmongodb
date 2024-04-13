@@ -1,0 +1,29 @@
+Api Documet 
+
+(1) api/register  Creat New User   With  Post method  json data  {
+"username":"Abhay",
+"password":"Abhay@123"
+
+}
+
+(2) api/login    Login User With Token  Post Method  json data {"username":"Abhay",
+"password":"Abhay@123"} Responce  {
+    "success": true,
+    "message": "Login successful.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjFhNTAyM2E5MzRlNGZjYTEzZGMyYTAiLCJ1c2VybmFtZSI6IkFiaGF5IiwiaWF0IjoxNzEzMDAwNTk2LCJleHAiOjE3MTMwMDQxOTZ9.A3J5xCSSKZ6UnpGturvxtBooMUUjumSamKEooRkT-Wk"
+}
+
+(3)api/create  create story with Bearer token authentation  Post method  json
+
+{
+    "title":"hgsdfjhgjsdh",
+     "description":"FSgsdgffg",
+
+            "date":"13/04/23",
+            "location":"india"
+            
+}
+
+(4) api/fetch   fetch  all story All  Get method 
+
+(5)api/fetch?year  fetch by year  Get Method
